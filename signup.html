@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
+        h1{ font-size: 36px;
+            color:#34B54C ; text-align: center;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+       .con{
+max-width: 1200px; margin: auto; box-shadow: 0 0 8px 0 #ccc; padding: 40px;
+color: #fff;
+
+       }
+     
+       h4{
+        color: rgba(0, 0, 0, 0.63); align-items: center; padding: 10px;
+       }
+.input-box{
+    width: 100%; height: 50px;
+    margin: 20px 0;
+}
+.input-box input{
+
+    width: 100%; height: 100%;
+    background: transparent; padding: 20px;
+    border: none;
+    outline: none;
+    border: 2px solid gray;border-radius: 10px;
+}
+.btn{
+    width: 100%; height: 50px; border: none; background-color:#34B54C; outline: none; border-radius: 10px;
+}
+.remember{ margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: grid; grid-template-columns: repeat(2,1fr); gap: 20px;
+}
+button{
+    background: #34B54C; color: #fff; padding: 10px; border-radius: 10px; border: none;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+    <div class="con">
+      
+            <h1>Create Your Account</h1>
+            <h4>Already have an account?<a href="login.html"> Log In</a></h4>
+            <div class="grid">
+            <div class="input-box">
+                <input type="Firstname" placeholder="Firstname" required>
+            </div>
+            <div class="input-box">
+                <input type="Lastname" placeholder="Lastname" required>
+            </div>
+            <div class="input-box">
+                <input type="Country" placeholder="Country" required>
+            </div>
+            <div class="input-box">
+                <input type="date"  placeholder="date of birth" required>
+            </div></div>
+            
+            <div class="input-box">
+                <input type="email"  placeholder="Email" required>
+                <h4>This will be your new Smart Holidays ID.</h4>
+            </div>
+            <div class="grid">
+                <div class="input-box">
+                    <input type="password" placeholder="password" required>
+                </div>
+                <div class="input-box">
+                    <input type="confirm password" placeholder="confirm password" required>
+                </div>
+                <div class="input-box">
+                    <input type="Country code" placeholder="Country code" required>
+                </div>
+                <div class="input-box">
+                    <input type="phone"  placeholder="phone" required>
+                </div></div>
+                <h4>Enter a phone number where you can receive verification codes via text when signing in.</h4>
+            <button type="submit" class="btn">Login</button>
+            <div class="remember">
+                <button>cancel</button>
+                <button>submit</button>
+            </div>
+            <form>
+        </form>
+    </div></section>
+    <footer>
+        <div class="wrapper">
+
+        </div>
+    </footer>
+    
+</body>
+</html>
